@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    border: 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.parent{
+    
+    height: 90px;
+    width: 100%;
+    border: 0.5px solid ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 239, 245);
+   
+}
+
+ .child{ 
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+
+}
